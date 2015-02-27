@@ -65,7 +65,7 @@ routes = [
     RedirectRoute('/docs/elements/core-elements.html', name='core-elements',
         redirect_to='/docs/elements/', strict_slash=True),
     RedirectRoute('/docs/elements/paper-elements.html', name='paper-elements',
-        redirect_to='/docs/elements/', strict_slash=True)
+        redirect_to='/docs/elements/', strict_slash=True),
     ('/latest.*', VersionHandler),
     ('/docs/.*', VersionHandler),
     ('/resources/.*', VersionHandler),
